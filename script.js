@@ -79,7 +79,7 @@ document.querySelector('#showMeButton').addEventListener('click', function() {
         prediction= yourCrush +" is your secret admirer";
         break;
       default:
-        prediction: "You have not entered any name";
+        prediction= "You have not entered any name";
     }
     return prediction;
   }
