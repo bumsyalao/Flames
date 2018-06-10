@@ -28,6 +28,18 @@ body {
   @keyframes mymove {
       50% {box-shadow: 20px 20px 50px grey;}
 }
+@media screen and (max-width: 768px) {
+  .input-box {
+  width: 50em;
+  height: 35em;
+  }
+  body {
+    /* height: 100vh; */
+    width: 100vw;
+    background-repeat: repeat;
+  }
+}
+
 /*  .center {
   margin: auto;
   padding 30px;
