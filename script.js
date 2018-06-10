@@ -78,8 +78,6 @@ document.querySelector('#showMeButton').addEventListener('click', function() {
       case 6:
         prediction= yourCrush +" is your secret admirer";
         break;
-        default:
-          prediction = "You have not entered any name!";
     }
     return prediction;
   }
