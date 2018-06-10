@@ -75,9 +75,11 @@ document.querySelector('#showMeButton').addEventListener('click', function() {
       case 5:
         prediction= "You will be enemies";
         break;
-      case 6:
+      case 6 || 0:
         prediction= yourCrush +" is your secret admirer";
         break;
+      default:
+        prediction: "You have not entered any name";
     }
     return prediction;
   }
