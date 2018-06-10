@@ -1,101 +1,122 @@
+@import '/loader';
+
 body {
-    height: 100vh;
-    width: 100vw;
-    background-image: url("http://res.cloudinary.com/dcpfdxsly/image/upload/v1528068169/Screen_Shot_2018-06-04_at_12.11.10_AM_l5dfsd.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("http://res.cloudinary.com/dcpfdxsly/image/upload/v1528068169/Screen_Shot_2018-06-04_at_12.11.10_AM_l5dfsd.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.input-box {
+  border: 2px solid #fffceb;
+  background-color: #fffceb;
+  height: 60%;
+  width: 80%;
+  margin: auto;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+      justify-content: center;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+      animation: mymove 5s infinite;
   }
-  
-  .input-box {
-    border: 2px solid #fffceb;
-    background-color: #fffceb;
-    height: 60%;
-    width: 80%;
-    margin: auto;
-    margin-top: 20vh;
-    margin-bottom: 20vh;
-        justify-content: center;
-      -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
-        animation: mymove 5s infinite;
-    }
-    /* Safari 4.0 - 8.0 */
-    @-webkit-keyframes mymove {
-        50% {box-shadow: 20px 20px 50px grey;}
-    }
-  
-    @keyframes mymove {
-        50% {box-shadow: 20px 20px 50px grey;}
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes mymove {
+      50% {box-shadow: 20px 20px 50px grey;}
   }
+
+  @keyframes mymove {
+      50% {box-shadow: 20px 20px 50px grey;}
+}
+/*  .center {
+  margin: auto;
+  padding 30px;
+}  */
+h1{
+  text-align: center;
+  font-family: 'BioRhyme Expanded', serif;
+  margin-top: 35px;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1em;
+  text-transform: uppercase;
+  color: #474747;
+  letter-spacing: .1rem;
   
-  h1{
+}
+.input-container {
     text-align: center;
-    font-family: 'BioRhyme Expanded', serif;
-    margin-top: 35px;
-    font-size: 2.5rem;
-    font-weight: 500;
-    line-height: 1em;
-    text-transform: uppercase;
-    color: #474747;
-    letter-spacing: .1rem;
-    
-  }
-  .input-container {
-      text-align: center;
-      padding: 35px;
-  
-  }
-  label {
-    font-weight: 500;
-    letter-spacing: 4px;
-  }
-  .label-text {
-    color: #474747;
-    cursor: text;
-    font-size: 15px;
-    line-height: 20px;
-    transform: translateY(5px);
-    transition: all 0.3s;
-  
-  }
-  
-  input {
-      background-color: transparent;
-      border: 0;
-      border-bottom: 2px solid #e64e64;
-      color: #474747;
-      font-size: 36px;
-      font-weight: 700;
-      letter-spacing: -1px;
-      outline: 0;
-      padding: 5px 20px;
-      text-align: center;
-  /*     transition: all 0.3s; */
-  }
-  
-  
-  button {
-    background-color: #ffcc2e;
-      font-family: 'BioRhyme Expanded', serif;
-  /*   border: 2px solid white; */
-    border-radius: 7px;
-    box-shadow: 20px 20px 100px #fffceb;
-    color: #fffceb;
-    cursor: pointer;
-    font-size: 15px;
-    margin-top: 50px;
-    padding: 10px 30px;
-    transition: all 200ms;
-  }
-  button:hover, button:focus {
-    border: 2px solid #ffcc2e;
+    padding: 35px;
+
+}
+label {
+  font-weight: 500;
+  letter-spacing: 4px;
+}
+.label-text {
+  color: #474747;
+  cursor: text;
+  font-size: 15px;
+  line-height: 20px;
+  transform: translateY(5px);
+  transition: all 0.3s;
+
+}
+
+input {
     background-color: transparent;
-    color: #21a08f;
+    border: 0;
+    border-bottom: 2px solid #e64e64;
+    color: #474747;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -1px;
     outline: 0;
-  }
-  
-  footer{
+    padding: 5px 20px;
     text-align: center;
-    font-size: 15px;
-    margin-top: 80px;
-  }
-  
+/*     transition: all 0.3s; */
+}
+
+
+button {
+  background-color: #ffcc2e;
+/*   font-family: 'Open Sans', sans-serif; */
+  font-family: 'BioRhyme Expanded', serif;
+/*   border: 2px solid white; */
+  border-radius: 7px;
+  box-shadow: 20px 20px 100px #fffceb;
+  color: #fffceb;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 50px;
+  padding: 10px 30px;
+  transition: all 200ms;
+}
+button:hover, button:focus {
+  border: 2px solid #ffcc2e;
+  background-color: transparent;
+  color: #21a08f;
+  outline: 0;
+}
+
+footer{
+/*   position: fixed; */
+  text-align: center;
+  font-size: 15px;
+  margin-top: 8%;
+}
+
+.hide{
+  display: none;
+}
+
+.result-tab {
+  text-align: center;
+}
+.result-paragraph{
+/*   font-family: 'Anton', sans-serif; */
+  font-family: 'Indie Flower', cursive;
+  color: #fa4e47;
+  font-size: 2.1em;
+  margin-top: 3em;
+}

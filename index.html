@@ -1,29 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <title>Flames</title>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114742414-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-114742414-1');
+	</script>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+	<meta name="description" content="Flames | love game | crush | game" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="http://res.cloudinary.com/dcpfdxsly/image/upload/v1510687028/favicon_dqww4u.ico" type="image/x-icon">
-    <link type="text/css" rel="stylesheet" href="/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=BioRhyme+Expanded" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./style.css" media="all">
+    <script src="./script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Anton|BioRhyme+Expanded|Indie+Flower|Open+Sans" rel="stylesheet">
+    <title>Flames</title>
 </head>
 
 <body>
     <div class="input-box center">
-        <h1> Flames </h1>
-        <div class="input-container">
-            <label>
-                <input type="text" />
-                <div class="label-text">Your name</div>
-            </label>
-            <label>
-                <input type="text" />
-                <div class="label-text">Your crush</div>
-            </label>
-            <button>Show me</button>
-            <footer>Copyright 2018 | Bunmi Alao</footer>
-        </div>
-</body>
-
-</html>
+      <h1> Flames </h1>
+        <div id="form" class="input-container">
+          <label>
+            <input id="yourNameInput" type="text" />
+            <div class="label-text">Your name</div>
+          </label>
+        <label>
+          <input id="yourCrushInput" type="text" />
+          <div class="label-text">Your crush</div>
+        </label>
+      <button id="showMeButton">Show me</button>
+          </div>
+      <div id="result" class="result-tab hide">
+          <p id="display-here" class="result-paragraph">You and your crush will just be friends.</p>
+          <button id="gobackButton">go back</button>
+         </div>
+     <footer>Copyright 2018 | Bunmi Alao</footer>
+    </div>
+  </body>
