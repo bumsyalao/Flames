@@ -1,45 +1,51 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114742414-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
 
-		gtag('config', 'UA-114742414-1');
-	</script>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
-	<meta name="description" content="Flames | love game | crush | game" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="http://res.cloudinary.com/dcpfdxsly/image/upload/v1510687028/favicon_dqww4u.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="./style.css" media="all">
-    <link href="https://fonts.googleapis.com/css?family=Anton|BioRhyme+Expanded|Indie+Flower|Open+Sans" rel="stylesheet">
-    <title>Flames</title>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114742414-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-114742414-1');
+  </script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+  <meta name="description" content="Flames | love game | crush | game" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="http://res.cloudinary.com/dcpfdxsly/image/upload/v1510687028/favicon_dqww4u.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="./style.css" media="all">
+  <link href="https://fonts.googleapis.com/css?family=Anton|BioRhyme+Expanded|Indie+Flower|Open+Sans" rel="stylesheet">
+  <title>Flames</title>
 </head>
 
 <body>
-    <div class="input-box center">
-      <h1> Flames </h1>
-        <div id="form" class="input-container">
-          <label>
-            <input id="yourNameInput" type="text" />
-            <div class="label-text">Your name</div>
-          </label>
-        <label>
-          <input id="yourCrushInput" type="text" />
-          <div class="label-text">Your crush</div>
-        </label>
+  <div class="input-box center">
+    <h1> Flames </h1>
+    <div id="form" class="input-container">
+      <label>
+        <input id="yourNameInput" type="text" />
+        <div class="label-text">Your name</div>
+      </label>
+      <label>
+        <input id="yourCrushInput" type="text" />
+        <div class="label-text">Your crush</div>
+      </label>
       <button id="showMeButton">Show me</button>
-          </div>
-      <div id="result" class="result-tab hide">
-          <p id="display-here" class="result-paragraph">Please wait...</p>
-          <button id="gobackButton">go back</button>
-         </div>
-     <footer>Copyright 2018 | Bunmi Alao</footer>
     </div>
-  </body>
-  <script src="./script.js"></script>
-  </html>
+    <div id="result" class="result-tab hide">
+      <p id="display-here" class="result-paragraph">Please wait...</p>
+      <a href={`https://twitter.com/intent/tweet?text=I%20found%20out%20if%20my%20crush%20is%20my%20soulmate%20or%20not&url=https://bumsyalao.github.io/Flames/`}
+        rel="noopener noreferrer" target="_blank" class="twitter-share">
+        <img src="http://res.cloudinary.com/dcpfdxsly/image/upload/v1529284878/twitter_snxpcy.png" />share on twitter?
+      </a>
+      <button id="gobackButton">go back</button>
+    </div>
+    <footer>Copyright 2018 | Bunmi Alao</footer>
+  </div>
+</body>
+<script src="./script.js"></script>
+
+</html>

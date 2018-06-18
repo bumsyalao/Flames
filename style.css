@@ -132,3 +132,6 @@ footer{
   font-size: 2.1em;
   margin-top: 3em;
 }
+.twitter-share {
+  cursor: pointer;
+}
